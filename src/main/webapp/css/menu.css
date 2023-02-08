@@ -1,0 +1,104 @@
+@charset "EUC-KR";
+
+.menu {
+	display: flex;
+	flex-direction : column;
+	
+	width: 20%;
+	height: 100vh;
+	box-shadow: 0px 1px 5px #0000004D;
+}
+
+.profile {
+	font-family: "Noto Sans KR", sans-serif;
+	color: #002366;
+	font-weight: 600;
+	
+	height: 60px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.profile button {
+	margin-left: 150px;
+	
+	font-family: "Noto Sans KR", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	
+	display: inline-block;
+	width: 90px;
+	height: 40px;
+	
+	border: none;
+	border-radius: 4px;
+	
+	cursor: pointer;
+	transition: 0.5s;
+	
+	background: #ffffff;
+	color: #000000;
+}
+
+.menulist {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.menubutton {
+	margin: 0;
+	padding: 0.5rem 1rem;
+	margin-bottom: 25px;
+	
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	
+	display: inline-block;
+	width: 78%;
+	height: 55px;
+	
+	border: none;
+	border-radius: 4px;
+	
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	cursor: pointer;
+	transition: 0.5s;
+	
+	background: #ffffff;
+	color: #000000;
+}
+
+.menubuttonactive {
+	margin: 0;
+	padding: 0.5rem 1rem;
+	margin-bottom: 25px;
+	
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	
+	display: inline-block;
+	width: 78%;
+	height: 55px;
+	
+	border: none;
+	border-radius: 4px;
+	
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	cursor: pointer;
+	transition: 0.5s;
+	
+	background: #002366;
+	color: #ffffff;
+}
+
+.menubutton:hover {
+	background: #002366;
+	color: #ffffff;
+}

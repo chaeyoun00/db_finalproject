@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+
+.regist {
+	flex-direction : column;
+	display: flex;
+	min-height: 100vh;
+	width: 80%;
+}
+
+.backsearch {
+	margin-top: 3%;
+}
+
+.backsearch button {
+	margin-left: 3%;
+	
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	
+	border: none;
+	border-radius: 4px;
+	
+	cursor: pointer;
+	transition: 0.5s;
+	
+	background: #ffffff;
+	color: #000000;
+}
+
+.registform {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	
+	margin-top: 6%;
+	margin-left: 38%;
+	margin-right: 38%;
+}
+
+.registform input {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	
+	width: 100%;
+	height: 40px;
+	
+	border: 0px;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+	
+	margin-bottom: 6%;
+}
+
+.registform button {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	
+	margin: 0;
+	margin-left: 4px;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	
+	border: none;
+	border-radius: 10px;
+	
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	cursor: pointer;
+	transition: 0.5s;
+	
+	background: #002366;
+	color: #ffffff;
+	
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+.registform select {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #000000;
+	
+	width: 100%;
+	height: 40px;
+	
+	border: 2px solid #f1f1f1;
+	border-radius: 4px;
+	
+	margin-bottom: 6%;
+}
+
+.choose {
+	width: 100%;
+}
+
+.choose input {
+	width: 70%;
+}
